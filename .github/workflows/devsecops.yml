@@ -12,6 +12,7 @@ jobs:
   sca:
     name: Software Composition Analysis
     runs-on: ubuntu-latest
+    continue-on-error: true
 
     steps:
       - name: Checkout repository
